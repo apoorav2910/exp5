@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Your Choice: "
+        android:textSize="28sp"
+        android:layout_margin="30dp"
+        />
+
+    <RadioButton
+        android:id="@+id/r_btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JAVA"
+        android:textSize="24sp"
+        android:padding="8dp"
+        android:layout_marginStart="40dp"
+        android:layout_gravity="start"
+        />
+
+    <RadioButton
+        android:id="@+id/r_btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kotlin"
+        android:textSize="24sp"
+        android:padding="8dp"
+        android:layout_marginStart="40dp"
+        android:layout_gravity="start"
+        />
+
+    <RadioButton
+        android:id="@+id/r_btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C++"
+        android:textSize="24sp"
+        android:padding="8dp"
+        android:layout_marginStart="40dp"
+        android:layout_gravity="start"
+        />
+
+    <RadioButton
+        android:id="@+id/r_btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Python"
+        android:textSize="24sp"
+        android:padding="8dp"
+        android:layout_marginStart="40dp"
+        android:layout_gravity="start"
+        />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="22dp"
+        android:text="You Selected:________"
+        android:textSize="27sp"
+        />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apply"
+        android:textSize="26sp"
+        android:layout_margin="15dp"
+        />
+
+</LinearLayout>
